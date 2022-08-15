@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: blueviolet;
+}
+
+header{
+    background-image: url("../IMG/back.jpg");
+    background-size: cover;
+    width: auto;
+    height: 50em;
+    color: #F6F6F6;
+}
+
+header .BoxMove{
+    animation-name: title;
+    animation: title 10s infinite;
+    position: relative;
+}
+
+header h1  {
+    margin-top: 10%;
+    text-align: center;
+    font-family: arial;
+    font-size: 5em;
+}
+header h2  {
+    margin-top: 0.5%;
+    text-align: center;
+    font-family: arial;
+    font-size: 2.5em;
+}
+
+@keyframes title {
+    0% {color: #a174ed; left: 0%;  top:5%}
+    50% {color: #cbc6f6; left: 0%; top:0%}
+    100% {color: #8a8ee6; left: 0%; top:5%}
+}
+
+header img{
+    padding: 1%;
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    background-color: #FFFF1414;
+}
+
+nav ul{
+    float: right;
+    margin-top: 2.8em;    
+    margin-right: 1%;
+}
+
+nav li{
+  display: inline; 
+  line-height: 4em;
+  padding: 1em;
+}
+
+nav li a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #cbc6f6;
+    font-family: fantasy;
+    transition: 1s;
+}
+
+nav li a:hover {
+    color: #F6F6F6;
+}
+
+.Conteudo h1{
+    font-family: arial;
+    text-align: center;
+    color: #cbc6f6;
+    margin-top: 1em;
+   }
+
+footer{
+    text-align: center;
+    color: #F6F6F6;
+    background-color: #000;
+    padding: 4em;
+}

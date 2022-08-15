@@ -1,0 +1,69 @@
+.BoxContainer{
+  padding-left: 10%;
+  padding-right: 5%;
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.redes{
+  margin-left: 30%;
+  margin-top: 4em;
+}
+
+.redes h4{
+    text-align: center;
+    color: #cbc6f6;
+    font-family: Arial;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+form{
+    width: 33em;
+    height: 20em;
+    border-style: solid;
+    border-color: #cbc6f6;
+    border-radius: 0.8em;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-bottom: 4em;
+}
+
+form .boxForm{
+    padding: 1em;
+}
+
+form label {
+    color: #cbc6f6;
+    font-size: 1.6em;
+    font-family: Arial;
+    margin-left: 5.5%;
+}
+
+form h3{
+    color: #cbc6f6;
+    font-family: Arial;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+textarea{
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+    width: 90%;
+    height: 35%;
+}
+
+input{
+    width: 25em;
+    height: 2.5em;
+    margin-left: 4%;
+}
+
+input[type=text]{
+    margin-left: 6%;
+}
